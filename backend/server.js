@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// [EL MISMO OBJETO 'catalog' QUE YA TIENES...]
+// [catalogo]
 const catalog = {
   id: "root",
   name: "Tienda Global S.A.",
