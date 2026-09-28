@@ -66,7 +66,7 @@ function App() {
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <h2>Catálogo</h2>
           
-          {/* PANEL DE MÉTRICAS (PARA EL VIDEO) */}
+          {/* PANEL DE MÉTRICAS */}
           {currentCat && (
             <div style={{ backgroundColor: '#e3f2fd', padding: '10px 20px', borderRadius: '8px', border: '1px solid #90caf9' }}>
               <span style={{ fontSize: '0.85em', color: '#1976d2', fontWeight: 'bold' }}>
